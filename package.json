@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "require": "^0.4.4"
+  },
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manoj-Paramsetti/weatherApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manoj-Paramsetti/weatherApp/issues"
+  },
+  "homepage": "https://github.com/Manoj-Paramsetti/weatherApp#readme",
+  "description": ""
+}

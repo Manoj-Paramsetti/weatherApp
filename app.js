@@ -1,3 +1,4 @@
+require('dotenv').config()
 var apiKey = "Paste your api key here from openweathermap"
 const form = document.querySelector("#search")
 const input = document.getElementById("text")
@@ -11,7 +12,7 @@ function senData(){
 }
 
 async function funcName(apiKey,location){
-    const response = await fetch("https://api.openweathermap.org/data/2.5/weather?q="+location+"&appid=7aa99fca6a848c8f87838df4566fbf10&units=metric")
+    const response = await fetch("https://api.openweathermap.org/data/2.5/weather?q="+location+"&appid="+process.env.api+"&units=metric")
     console.log(response)
     data = await response.json()
     document.getElementById("Condition").innerHTML = ""
