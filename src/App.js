@@ -55,7 +55,7 @@ function App() {
       setOutput1(geolocation)
       temperature = "Temperature: "+data["main"]["temp"]+"\nFeels like: "+data["main"]["feels_like"]+"\nMinimum Temperature: "+data["main"]["temp_min"]+"\nMaximum Temperature: "+data["main"]["temp_max"]
       setOutput2(temperature)
-      condition = "Weather Condition: "+data["weather"][0]["main"]+"\nPressure: "+data["main"]["pressure"]+"\nHumidity: "+data["main"]["humidity"]+"\nVisibility: "+data["visibility"]+"\nwind speed: "+data["wind"]["speed"]+"\nwind direction: "+data["wind"]["deg"]+" deg"+"\nclouds: "+data["clouds"]["all"]+"%"
+      condition = "Weather Condition: "+data["weather"][0]["main"]+"\nPressure: "+data["main"]["pressure"]+"\nHumidity: "+data["main"]["humidity"]+"\nVisibility: "+data["visibility"]+"\nwind speed: "+data["wind"]["speed"]+"\nwind direction: "+data["wind"]["deg"]+" deg\nclouds: "+data["clouds"]["all"]+"%"
       setOutput3(condition)
     }
     catch{
