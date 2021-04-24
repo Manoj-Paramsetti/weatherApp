@@ -1,13 +1,16 @@
 import './App.css';
 import React, { useState } from "react";
 require('dotenv').config()
-console.log(process.env.REACT_APP_API_KEY)
+
 let i, j, k = 0
+
 let locate = React.createRef();
+
 let geolocation = ""
 let temperature = ""
 let condition = ""
 let location = ""
+
 function App() {
   const [output1, setOutput1] = useState('')
   const [output2, setOutput2] = useState('')
